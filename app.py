@@ -222,14 +222,14 @@ GEOJSON_PATH = os.path.join(DATA_DIR, "rio_negro_departamentos.geojson")
 # la app simplemente no ofrece esa capa como opción (no rompe nada).
 CAPAS_GEOGRAFICAS = {
     "rios": {"label": "Ríos principales", "file": "rios_principales_rn.geojson", "color": "#2A6F97", "tipo": "linea"},
-    "canales": {"label": "Canales de riego", "file": "canales_rn.geojson", "color": "#4FA3C7", "tipo": "linea"},
+    "canales": {"label": "Canales de riego", "file": "canales_rn.geojson", "color": "#3FBFBF", "tipo": "linea"},
     "embalses": {"label": "Embalses", "file": "embalses_rn.geojson", "color": "#1B4965", "tipo": "linea"},
-    "ferrocarril": {"label": "Tren Patagónico (vías)", "file": "ferrocarril_rn.geojson", "color": "#6B6558", "tipo": "linea"},
-    "estaciones_tren": {"label": "Estaciones de tren", "file": "estaciones_tren_rn.geojson", "color": "#6B6558", "tipo": "punto"},
+    "ferrocarril": {"label": "Tren Patagónico (vías)", "file": "ferrocarril_rn.geojson", "color": "#6A4C93", "tipo": "linea"},
+    "estaciones_tren": {"label": "Estaciones de tren", "file": "estaciones_tren_rn.geojson", "color": "#D6336C", "tipo": "punto"},
     "vial_nacional": {"label": "Rutas nacionales", "file": "vial_nacional_rn.geojson", "color": "#C77B3F", "tipo": "linea"},
-    "vial_provincial": {"label": "Rutas provinciales", "file": "vial_provincial_rn.geojson", "color": "#D9A05B", "tipo": "linea"},
-    "mineria_puntos": {"label": "Registros mineros", "file": "mineria_puntos.geojson", "color": "#8B5E3C", "tipo": "punto"},
-    "pozos_hidrocarburos": {"label": "Pozos de petróleo/gas activos", "file": "hidrocarburos_pozos_activos.geojson", "color": "#3B3B3B", "tipo": "punto"},
+    "vial_provincial": {"label": "Rutas provinciales", "file": "vial_provincial_rn.geojson", "color": "#7A8B4F", "tipo": "linea"},
+    "mineria_puntos": {"label": "Registros mineros", "file": "mineria_puntos.geojson", "color": "#A6762C", "tipo": "punto"},
+    "pozos_hidrocarburos": {"label": "Pozos de petróleo/gas activos", "file": "hidrocarburos_pozos_activos.geojson", "color": "#1A1A1A", "tipo": "punto"},
 }
 
 # Columna del GeoJSON que contiene el nombre del departamento.
